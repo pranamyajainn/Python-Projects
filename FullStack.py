@@ -1,4 +1,4 @@
-import os
+import os 
 import json
 import pandas as pd
 import fitz
@@ -22,7 +22,7 @@ set_global_tokenizer(tiktoken.encoding_for_model("gpt-4o").encode)
 # Load environment variables from .env file
 load_dotenv()
 
-# Initialize Flask app
+# Initialize the Flask app
 app = Flask(__name__)
 CORS(app)
 
